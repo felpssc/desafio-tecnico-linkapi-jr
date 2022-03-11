@@ -1,0 +1,8 @@
+{
+  "name": "desafio-tecnico-linkapi-jr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:felpssc/desafio-tecnico-linkapi-jr.git",
+  "author": "Felipe Silva <carlosfelipesilva.fs@gmail.com>",
+  "license": "MIT"
+}
