@@ -10,11 +10,7 @@ class AddressesRepository implements IAddressesRepository {
                 userId
             });
                     
-            worker.on("message", (message: {
-            addresses: IAddress[]
-          }) => {
-                console.log("mensagem", message);
-    
+            worker.on("message", (message: { addresses: IAddress[] }) => {    
                 resolve(message);
             });
         });

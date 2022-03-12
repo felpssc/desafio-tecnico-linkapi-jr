@@ -24,7 +24,7 @@ class ListUsersUseCase {
         order,
     }: IParams): Promise<IUser[]> {
         const users = await this.usersRepository.listUsers({
-            limit: limit || 10,
+            limit: limit || 5,
             page: page || 1,
             sortBy,
             order
