@@ -1,3 +1,5 @@
+import { IAddress } from "./IAddress";
+
 interface IUser {
   id: string;
   firstName: string;
@@ -5,6 +7,7 @@ interface IUser {
   email: string;
   avatar: string;
   createdAt: Date;
+  addresses: IAddress[];
 }
 
 export { IUser };
